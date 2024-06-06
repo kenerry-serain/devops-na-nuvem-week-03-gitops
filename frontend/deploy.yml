@@ -4,7 +4,7 @@ metadata:
   name: frontend
   labels:
     app: frontend
-    live: devops-na-nuvem-week
+    live: devops-na-nuvem-week-2
 spec:
   replicas: 1
   selector:
