@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: devops-na-nuvem-week
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://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@github.com/kenerry-serain/devops-na-nuvem-week-03-gitops.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated: {}

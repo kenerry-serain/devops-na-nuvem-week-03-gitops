@@ -4,6 +4,7 @@ metadata:
   name: backend
   labels:
     app: backend
+    live: devops-na-nuvem-week
 spec:
   replicas: 1
   selector:
