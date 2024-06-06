@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://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@github.com/kenerry-serain/devops-na-nuvem-week-03-gitops.git
+    repoURL: https://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@github.com/kenerry-serain/devops-na-nuvem-week-03-gitops.git
     targetRevision: HEAD
     path: .
   destination:
