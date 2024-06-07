@@ -8,8 +8,9 @@ resources:
 images:
 - name: 654654554686.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/backend
   newName: 654654554686.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/backend
-  newTag: latest
-
+  newTag: 8ee4f9b6ffb419439fe2cd280c25175b9ec9ee18
 - name: 654654554686.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/frontend
   newName: 654654554686.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/frontend
   newTag: latest
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
